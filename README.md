@@ -127,6 +127,7 @@ bash
 Copiar
 Editar
 npm install
+npm run dev
 Inicie o servidor de desenvolvimento:
 
 bash
