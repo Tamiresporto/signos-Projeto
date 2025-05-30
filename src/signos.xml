@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signos>
+  <signo>
+    <dataInicio>21/03</dataInicio>
+    <dataFim>20/04</dataFim>
+    <signoNome>Áries</signoNome>
+    <descricao>Homem de Áries é intenso, direto e apaixonado, costuma tomar a iniciativa no amor. Já a mulher ariana é independente, decidida e valoriza parceiros com energia e atitude.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>21/04</dataInicio>
+    <dataFim>20/05</dataFim>
+    <signoNome>Touro</signoNome>
+    <descricao>Homem taurino é romântico, leal e gosta de estabilidade nos relacionamentos. A mulher de Touro busca segurança emocional e valoriza gestos de carinho e fidelidade.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>21/05</dataInicio>
+    <dataFim>20/06</dataFim>
+    <signoNome>Gêmeos</signoNome>
+    <descricao>Homem geminiano é comunicativo, curioso e gosta de relações leves e divertidas. A mulher de Gêmeos é versátil, inteligente e aprecia conversas profundas e humor.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>21/06</dataInicio>
+    <dataFim>22/07</dataFim>
+    <signoNome>Câncer</signoNome>
+    <descricao>Homem canceriano é sensível, protetor e romântico, valoriza o lar e a família. Mulher de Câncer é carinhosa, emocional e se entrega com profundidade quando ama.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>23/07</dataInicio>
+    <dataFim>22/08</dataFim>
+    <signoNome>Leão</signoNome>
+    <descricao>Homem leonino é charmoso, generoso e gosta de ser admirado. A mulher de Leão é intensa, confiante e espera um amor que a valorize como uma rainha.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>23/08</dataInicio>
+    <dataFim>22/09</dataFim>
+    <signoNome>Virgem</signoNome>
+    <descricao>Homem virginiano é cuidadoso, leal e demonstra amor através de gestos práticos. A mulher de Virgem é reservada, criteriosa e busca um relacionamento equilibrado e sincero.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>23/09</dataInicio>
+    <dataFim>22/10</dataFim>
+    <signoNome>Libra</signoNome>
+    <descricao>Homem de Libra é sedutor, elegante e busca harmonia no amor. Mulher libriana é gentil, vaidosa e valoriza relações justas, com troca emocional verdadeira.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>23/10</dataInicio>
+    <dataFim>21/11</dataFim>
+    <signoNome>Escorpião</signoNome>
+    <descricao>Homem escorpiano é intenso, misterioso e profundamente emocional. A mulher de Escorpião é sedutora, leal e exige entrega total nos relacionamentos.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>22/11</dataInicio>
+    <dataFim>21/12</dataFim>
+    <signoNome>Sagitário</signoNome>
+    <descricao>Homem sagitariano é aventureiro, sincero e valoriza a liberdade. Mulher de Sagitário é otimista, espontânea e busca conexões leves, mas com significado.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>22/12</dataInicio>
+    <dataFim>19/01</dataFim>
+    <signoNome>Capricórnio</signoNome>
+    <descricao>Homem capricorniano é sério, confiável e demonstra amor com atitudes. A mulher de Capricórnio é determinada, prática e valoriza estabilidade e compromisso.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>20/01</dataInicio>
+    <dataFim>18/02</dataFim>
+    <signoNome>Aquário</signoNome>
+    <descricao>Homem aquariano é criativo, livre e busca parceiros com mente aberta. Mulher de Aquário é original, independente e precisa de liberdade emocional no amor.</descricao>
+  </signo>
+  <signo>
+    <dataInicio>19/02</dataInicio>
+    <dataFim>20/03</dataFim>
+    <signoNome>Peixes</signoNome>
+    <descricao>Homem pisciano é romântico, sonhador e muito empático. Mulher de Peixes é doce, sensível e vive o amor com intensidade e entrega emocional.</descricao>
+  </signo>
+</signos>
