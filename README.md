@@ -36,67 +36,6 @@ O sistema compara essa data com os intervalos de cada signo.
 
 O signo correspondente é exibido na tela com sua descrição.
 
-✔️ Como seria a lógica em JavaScript puro (sem React):
-html
-Copiar
-Editar
-<input type="date" id="dataNascimento">
-<button onclick="consultarSigno()">Consultar Signo</button>
-<div id="resultado"></div>
-
-<script>
-  const signos = [
-    { nome: "Áries", inicio: "03-21", fim: "04-19" },
-    { nome: "Touro", inicio: "04-20", fim: "05-20" },
-    // ... demais signos
-  ];
-
-  function consultarSigno() {
-    const data = document.getElementById('dataNascimento').value;
-    if (!data) return;
-    const [ano, mes, dia] = data.split('-');
-    const dataFormatada = `${mes}-${dia}`;
-    
-    const encontrado = signos.find(s => {
-      if (s.inicio > s.fim) {
-        return dataFormatada >= s.inicio || dataFormatada <= s.fim;
-      }
-      return dataFormatada >= s.inicio && dataFormatada <= s.fim;
-    });
-
-    document.getElementById('resultado').innerText = 
-      encontrado ? `Seu signo é: ${encontrado.nome}` : 'Signo não encontrado';
-  }
-</script>
-✔️ Como seria a lógica em PHP:
-php
-Copiar
-Editar
-<?php
-$signos = [
-    ["nome" => "Áries", "inicio" => "03-21", "fim" => "04-19"],
-    ["nome" => "Touro", "inicio" => "04-20", "fim" => "05-20"],
-    // ... demais signos
-];
-
-function consultarSigno($dataNascimento) {
-    global $signos;
-    $data = date('m-d', strtotime($dataNascimento));
-    
-    foreach ($signos as $s) {
-        if ($s['inicio'] > $s['fim']) {
-            if ($data >= $s['inicio'] || $data <= $s['fim']) {
-                return $s['nome'];
-            }
-        } else {
-            if ($data >= $s['inicio'] && $data <= $s['fim']) {
-                return $s['nome'];
-            }
-        }
-    }
-    return "Signo não encontrado";
-}
-
 // Exemplo de uso:
 $dataNascimento = "1995-04-05";
 echo "Seu signo é: " . consultarSigno($dataNascimento);
