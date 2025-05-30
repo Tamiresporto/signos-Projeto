@@ -101,38 +101,17 @@ function consultarSigno($dataNascimento) {
 $dataNascimento = "1995-04-05";
 echo "Seu signo é: " . consultarSigno($dataNascimento);
 ?>
-📦 Estrutura do Projeto
-pgsql
-Copiar
-Editar
-/signos-projeto
-  ├── src/
-  │    ├── App.jsx
-  │    └── index.js
-  ├── public/
-  │    └── imagens/
-  ├── package.json
-  ├── README.md
+
 🚀 Como rodar o projeto React
 Clone o repositório:
-
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/signos-projeto.git
 cd signos-projeto
 Instale as dependências:
 
-bash
-Copiar
-Editar
 npm install
 npm run dev
 Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
 npm run dev
 Acesse no navegador: http://localhost:3000
 
